@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "sk-csharp-console-chat.sln"
+    "dotnet.defaultSolution": "sk-csharp-console-chat.sln",
+    "semantic-kernel.registerCustomNativeFunctions": true
 }
