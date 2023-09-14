@@ -1,0 +1,22 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Will write a sonnet about anything you want.",
+    "completion": {
+        "max_tokens": 256,
+        "temperature": 0.7,
+        "top_p": 0,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+    },
+    "input": {
+        "parameters": [
+            {
+                "name": "input",
+                "description": "Input for this semantic function.",
+                "defaultValue": "Love"
+            }
+        ]
+    },
+    "default_backends": []
+}

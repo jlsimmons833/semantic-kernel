@@ -1,0 +1,5 @@
+""Write a sonnet about {{$input}}.""
+
+[INPUT]
+{{$input}}
+[END INPUT]
