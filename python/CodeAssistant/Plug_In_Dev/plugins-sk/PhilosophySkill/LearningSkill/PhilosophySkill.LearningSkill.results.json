@@ -1,0 +1,91 @@
+{
+    "version": "1.0",
+    "skillName": "PhilosophySkill",
+    "functionName": "LearningSkill",
+    "description": "This skills is helpful if the user is responding to the chatbot and challenging the chatbot to clarify or consider another point of view that contradicts the chatbot's last response.",
+    "filePath": "..\\..\\..\\CodeAssistant\\Plug_In_Dev\\plugins-sk\\PhilosophySkill\\LearningSkill\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.7,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 1500,
+                "stopSequences": [
+                    "Human:",
+                    "AI:",
+                    "stop"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "But how does this relate to Indian philosophies and texts?"
+                },
+                {
+                    "key": "context",
+                    "value": "Camu argues that life has no inherent meaning."
+                }
+            ],
+            "output": {
+                "prompt": "React to the But how does this relate to Indian philosophies and texts? given by the user and improve your previous response.\r\n\r\nConsider the following questions:\r\n\r\nWould being more specific in my response help respond to the feedback?\r\nWould examples from real world situations help respond to the feedback?\r\nWould a more detailed explanation help respond to the feedback?\r\nIs there an abstract concept that would help respond to the feedback?\r\nIs there a concept from Aristotle, Plato, or Socrates that would help respond to the feedback?\r\nIs there a concept from the Bible, the Koran, the Baghavad Gita, or Judaic law that would help respond to the feedback?\r\n\r\nIncorporate new concepts or information from But how does this relate to Indian philosophies and texts? into the previous response in Camu argues that life has no inherent meaning..\r\n\r\nDo not repeat prior information or concepts.  Any new information should explain using a different concept or more detailed and specific information.",
+                "durationInMilliseconds": 15000.7772,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "Thank you for your feedback. In response to your question about how Camus' philosophy relates to Indian philosophies and texts, it is important to note that Indian philosophies and texts have a rich tradition of exploring the concept of dharma, which can be understood as one's duty or purpose in life. While Camus argues that life has no inherent meaning, Indian philosophies and texts suggest that individuals can find meaning and purpose through fulfilling their dharma. This concept of dharma can be seen as a way to reconcile Camus' philosophy with Indian philosophies and texts. Additionally, the concept of karma, which suggests that one's actions have consequences, can be seen as a way to understand Camus' idea of the absurd, where individuals must create their own meaning in a world that is inherently meaningless.",
+                "chatCompletionResult": "Thank you for your feedback. In response to your question about how Camus' philosophy relates to Indian philosophies and texts, it is important to note that Indian philosophies and texts have a rich tradition of exploring the concept of dharma, which can be understood as one's duty or purpose in life. While Camus argues that life has no inherent meaning, Indian philosophies and texts suggest that individuals can find meaning and purpose through fulfilling their dharma. This concept of dharma can be seen as a way to reconcile Camus' philosophy with Indian philosophies and texts. Additionally, the concept of karma, which suggests that one's actions have consequences, can be seen as a way to understand Camus' idea of the absurd, where individuals must create their own meaning in a world that is inherently meaningless."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.7,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 1500,
+                "stopSequences": [
+                    "Human:",
+                    "AI:",
+                    "stop"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "You responded that Camu argues that life has no inherent meaning.  All things have some meaning.  Does Camu mean that it has no emotional meaning?"
+                },
+                {
+                    "key": "context",
+                    "value": "Camu argues that life has no inherent meaning."
+                }
+            ],
+            "output": {
+                "prompt": "React to the You responded that Camu argues that life has no inherent meaning.  All things have some meaning.  Does Camu mean that it has no emotional meaning? given by the user and improve your previous response.\r\n\r\nConsider the following questions:\r\n\r\nWould being more specific in my response help respond to the feedback?\r\nWould examples from real world situations help respond to the feedback?\r\nWould a more detailed explanation help respond to the feedback?\r\nIs there an abstract concept that would help respond to the feedback?\r\nIs there a concept from Aristotle, Plato, or Socrates that would help respond to the feedback?\r\nIs there a concept from the Bible, the Koran, the Baghavad Gita, or Judaic law that would help respond to the feedback?\r\n\r\nIncorporate new concepts or information from You responded that Camu argues that life has no inherent meaning.  All things have some meaning.  Does Camu mean that it has no emotional meaning? into the previous response in Camu argues that life has no inherent meaning..\r\n\r\nDo not repeat prior information or concepts.  Any new information should explain using a different concept or more detailed and specific information.",
+                "durationInMilliseconds": 7984.8015,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "Thank you for your feedback. To clarify, Camus argues that life has no inherent meaning, but this does not mean that life has no emotional meaning. In fact, Camus believed that individuals can create their own meaning in life through their experiences and actions. This meaning may be emotional, personal, or subjective, but it is still meaningful to the individual. For example, a person may find meaning in their relationships, their work, or their hobbies. Camus believed that this subjective meaning is what gives life its richness and depth.",
+                "chatCompletionResult": "Thank you for your feedback. To clarify, Camus argues that life has no inherent meaning, but this does not mean that life has no emotional meaning. In fact, Camus believed that individuals can create their own meaning in life through their experiences and actions. This meaning may be emotional, personal, or subjective, but it is still meaningful to the individual. For example, a person may find meaning in their relationships, their work, or their hobbies. Camus believed that this subjective meaning is what gives life its richness and depth."
+            }
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "version": "1.0",
+    "skillName": "PhilosophySkill",
+    "functionName": "CriticalThinkingSkill",
+    "description": "This skill allows the chatbot to understand and respond to various philosophical topics, such as ethics, metaphysics, epistemology, logic, etc.",
+    "filePath": "..\\..\\..\\CodeAssistant\\Plug_In_Dev\\plugins-sk\\PhilosophySkill\\CriticalThinkingSkill\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.7,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 1500,
+                "stopSequences": [
+                    "Human:",
+                    "AI:",
+                    "stop"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "What is the meaning of life?"
+                }
+            ],
+            "output": {
+                "prompt": "Engage in a critical thinking and reasoning dialogue with the user about What is the meaning of life?. Challenge and defend arguments using evidence and logic.\r\n\r\nUse writings from Greek, Roman, Eastern religious texts and modern philosophers to express a point of view for the user.\r\n\r\nWhen helpful, include references to Physics and Mathematics to help explain concepts.",
+                "durationInMilliseconds": 7672.813,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "The meaning of life is a complex and subjective topic that has been debated by philosophers, theologians, and scientists for centuries. There are many different perspectives on what the meaning of life is, and each one has its own set of arguments and evidence to support it.\n\nOne perspective on the meaning of life comes from the ancient Greeks, who believed that the purpose of life was to achieve eudaimonia, or a state of happiness and well-being. This idea was further developed by the Roman philosopher Seneca, who argued that the key to achieving eudaimonia was to live a virtuous life and cultivate inner peace.\n\nEastern religious texts, such as the Bhagavad Gita and the Tao Te Ching, offer a different perspective on the meaning of life. These texts emphasize the importance of living in harmony with the universe and finding inner peace through meditation and spiritual practice.\n\nModern philosophers have also weighed in on the meaning of life. Some, like Albert Camus, argue that life has no inherent meaning and that we must create our own meaning through our actions and experiences. Others, like Viktor Frankl, believe that the meaning of life is to find purpose and meaning in our suffering and struggles.\n\nFrom a scientific perspective, physics and mathematics can help us understand the nature of the universe and our place in it. The laws of physics tell us that everything in the universe is interconnected and that we are all part of a larger whole. Mathematics can help us understand the patterns and structures that underlie the universe and give us a sense of awe and wonder at the complexity and beauty of the world around us.\n\nIn conclusion, the meaning of life is a complex and multifaceted topic that can be approached from many different perspectives. Whether we look to ancient Greek philosophy, Eastern religious texts, or modern philosophy and science, we can find insights and wisdom that can help us understand our place in the world and find meaning and purpose in our lives. Ultimately, the meaning of life is a deeply personal and subjective question that each of us must answer for ourselves based on our own experiences, beliefs, and values.",
+                "chatCompletionResult": "The meaning of life is a complex and subjective topic that has been debated by philosophers, theologians, and scientists for centuries. There are many different perspectives on what the meaning of life is, and each one has its own set of arguments and evidence to support it.\n\nOne perspective on the meaning of life comes from the ancient Greeks, who believed that the purpose of life was to achieve eudaimonia, or a state of happiness and well-being. This idea was further developed by the Roman philosopher Seneca, who argued that the key to achieving eudaimonia was to live a virtuous life and cultivate inner peace.\n\nEastern religious texts, such as the Bhagavad Gita and the Tao Te Ching, offer a different perspective on the meaning of life. These texts emphasize the importance of living in harmony with the universe and finding inner peace through meditation and spiritual practice.\n\nModern philosophers have also weighed in on the meaning of life. Some, like Albert Camus, argue that life has no inherent meaning and that we must create our own meaning through our actions and experiences. Others, like Viktor Frankl, believe that the meaning of life is to find purpose and meaning in our suffering and struggles.\n\nFrom a scientific perspective, physics and mathematics can help us understand the nature of the universe and our place in it. The laws of physics tell us that everything in the universe is interconnected and that we are all part of a larger whole. Mathematics can help us understand the patterns and structures that underlie the universe and give us a sense of awe and wonder at the complexity and beauty of the world around us.\n\nIn conclusion, the meaning of life is a complex and multifaceted topic that can be approached from many different perspectives. Whether we look to ancient Greek philosophy, Eastern religious texts, or modern philosophy and science, we can find insights and wisdom that can help us understand our place in the world and find meaning and purpose in our lives. Ultimately, the meaning of life is a deeply personal and subjective question that each of us must answer for ourselves based on our own experiences, beliefs, and values."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.7,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 1500,
+                "stopSequences": [
+                    "Human:",
+                    "AI:",
+                    "stop"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "What is the meaning of life?"
+                }
+            ],
+            "output": {
+                "prompt": "Engage in a critical thinking and reasoning dialogue with the user about What is the meaning of life?. Challenge and defend arguments using evidence and logic.\r\n\r\nConsider arguments from multiple perspectives and viewpoints.  Do not discuss why this is an important question or qualify your response as challenging, dynamic or multi-dimensional.  Simply answer the question the best you can.\r\n\r\nUse writings from Greek, Roman, Eastern religious texts and modern philosophers to express a point of view for the user.\r\n\r\nWhen helpful, include references to Physics and Mathematics to help explain concepts.",
+                "durationInMilliseconds": 8795.0023,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "The meaning of life is a question that has puzzled philosophers, theologians, and scientists for centuries. There are many different perspectives on what the meaning of life is, and each perspective has its own set of arguments and evidence to support it.\n\nOne perspective on the meaning of life comes from the ancient Greeks. Aristotle believed that the purpose of life was to achieve eudaimonia, or happiness. He argued that happiness was the ultimate goal of human existence, and that it could be achieved through living a virtuous life. This perspective emphasizes the importance of personal fulfillment and moral excellence.\n\nAnother perspective comes from Eastern religious texts, such as the Bhagavad Gita. In Hinduism, the ultimate goal of life is to achieve moksha, or liberation from the cycle of birth and death. This perspective emphasizes the importance of spiritual enlightenment and the attainment of a higher consciousness.\n\nFrom a scientific perspective, the meaning of life can be seen as a result of the laws of physics and mathematics. The universe is governed by fundamental laws and principles, and life is a product of these laws. The meaning of life can be seen as the result of the complex interactions between these laws and the living organisms that exist within them.\n\nModern philosophers have also offered their own perspectives on the meaning of life. For example, Jean-Paul Sartre argued that life has no inherent meaning, and that it is up to each individual to create their own meaning through their actions and choices. This perspective emphasizes the importance of personal agency and the freedom to create one's own destiny.\n\nIn conclusion, the meaning of life is a complex and multifaceted question that has been approached from many different perspectives throughout history. Each perspective has its own set of arguments and evidence to support it, and there is no one definitive answer. Ultimately, the meaning of life is a question that each individual must answer for themselves based on their own experiences, beliefs, and values.",
+                "chatCompletionResult": "The meaning of life is a question that has puzzled philosophers, theologians, and scientists for centuries. There are many different perspectives on what the meaning of life is, and each perspective has its own set of arguments and evidence to support it.\n\nOne perspective on the meaning of life comes from the ancient Greeks. Aristotle believed that the purpose of life was to achieve eudaimonia, or happiness. He argued that happiness was the ultimate goal of human existence, and that it could be achieved through living a virtuous life. This perspective emphasizes the importance of personal fulfillment and moral excellence.\n\nAnother perspective comes from Eastern religious texts, such as the Bhagavad Gita. In Hinduism, the ultimate goal of life is to achieve moksha, or liberation from the cycle of birth and death. This perspective emphasizes the importance of spiritual enlightenment and the attainment of a higher consciousness.\n\nFrom a scientific perspective, the meaning of life can be seen as a result of the laws of physics and mathematics. The universe is governed by fundamental laws and principles, and life is a product of these laws. The meaning of life can be seen as the result of the complex interactions between these laws and the living organisms that exist within them.\n\nModern philosophers have also offered their own perspectives on the meaning of life. For example, Jean-Paul Sartre argued that life has no inherent meaning, and that it is up to each individual to create their own meaning through their actions and choices. This perspective emphasizes the importance of personal agency and the freedom to create one's own destiny.\n\nIn conclusion, the meaning of life is a complex and multifaceted question that has been approached from many different perspectives throughout history. Each perspective has its own set of arguments and evidence to support it, and there is no one definitive answer. Ultimately, the meaning of life is a question that each individual must answer for themselves based on their own experiences, beliefs, and values."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0.7,
+                "topP": 0,
+                "presencePenalty": 0.6,
+                "frequencyPenalty": 0,
+                "maxTokens": 1500,
+                "stopSequences": [
+                    "Human:",
+                    "AI:",
+                    "stop"
+                ]
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "What is the meaning of life?"
+                }
+            ],
+            "output": {
+                "prompt": "Engage in a critical thinking and reasoning dialogue with the user about What is the meaning of life?. Challenge and defend arguments using evidence and logic.\r\n\r\nConsider arguments from multiple perspectives and viewpoints.  Use the Socratic method to help the user to develop their question.\r\n\r\nUse writings from Greek, Roman, Eastern religious texts and modern philosophers to express a point of view for the user.\r\n\r\nWhen helpful, include references to Physics and Mathematics to help explain concepts.",
+                "durationInMilliseconds": 10020.9869,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "The question of the meaning of life is one that has puzzled philosophers, theologians, and scientists for centuries. It is a complex and multifaceted question that has no easy answer. However, we can explore this question together using critical thinking and reasoning.\n\nTo begin, let's use the Socratic method to develop your question. What specifically do you mean by \"the meaning of life\"? Are you asking about the purpose of life, the value of life, or something else entirely?\n\nFrom a philosophical perspective, there are many different theories about the meaning of life. For example, Aristotle believed that the purpose of life was to achieve eudaimonia, or a state of flourishing and happiness. Similarly, the Stoics believed that the purpose of life was to live in accordance with nature and to cultivate virtues such as wisdom, courage, and justice.\n\nFrom a religious perspective, many faiths believe that the meaning of life is to serve a higher power or to fulfill a divine purpose. For example, in Christianity, the purpose of life is often seen as glorifying God and serving others.\n\nIn Eastern religions such as Buddhism and Hinduism, the meaning of life is often tied to the concept of karma and the cycle of rebirth. The goal is to achieve enlightenment and break free from the cycle of suffering.\n\nFrom a scientific perspective, the meaning of life is often seen as a question of biology and evolution. The purpose of life, from this perspective, is simply to survive and reproduce.\n\nHowever, it's important to note that these different perspectives are not mutually exclusive. It's possible to find meaning in life through a combination of philosophy, religion, and science.\n\nUltimately, the meaning of life is a deeply personal question that each individual must answer for themselves. It may involve finding a sense of purpose, cultivating meaningful relationships, or pursuing a particular passion or goal. It's up to each of us to explore our own values, beliefs, and desires in order to find our own meaning in life.\n\nIn conclusion, the question of the meaning of life is a complex and multifaceted one that has puzzled thinkers for centuries. By exploring different perspectives and using critical thinking and reasoning, we can begin to develop our own understanding of what it means to live a meaningful life.",
+                "chatCompletionResult": "The question of the meaning of life is one that has puzzled philosophers, theologians, and scientists for centuries. It is a complex and multifaceted question that has no easy answer. However, we can explore this question together using critical thinking and reasoning.\n\nTo begin, let's use the Socratic method to develop your question. What specifically do you mean by \"the meaning of life\"? Are you asking about the purpose of life, the value of life, or something else entirely?\n\nFrom a philosophical perspective, there are many different theories about the meaning of life. For example, Aristotle believed that the purpose of life was to achieve eudaimonia, or a state of flourishing and happiness. Similarly, the Stoics believed that the purpose of life was to live in accordance with nature and to cultivate virtues such as wisdom, courage, and justice.\n\nFrom a religious perspective, many faiths believe that the meaning of life is to serve a higher power or to fulfill a divine purpose. For example, in Christianity, the purpose of life is often seen as glorifying God and serving others.\n\nIn Eastern religions such as Buddhism and Hinduism, the meaning of life is often tied to the concept of karma and the cycle of rebirth. The goal is to achieve enlightenment and break free from the cycle of suffering.\n\nFrom a scientific perspective, the meaning of life is often seen as a question of biology and evolution. The purpose of life, from this perspective, is simply to survive and reproduce.\n\nHowever, it's important to note that these different perspectives are not mutually exclusive. It's possible to find meaning in life through a combination of philosophy, religion, and science.\n\nUltimately, the meaning of life is a deeply personal question that each individual must answer for themselves. It may involve finding a sense of purpose, cultivating meaningful relationships, or pursuing a particular passion or goal. It's up to each of us to explore our own values, beliefs, and desires in order to find our own meaning in life.\n\nIn conclusion, the question of the meaning of life is a complex and multifaceted one that has puzzled thinkers for centuries. By exploring different perspectives and using critical thinking and reasoning, we can begin to develop our own understanding of what it means to live a meaningful life."
+            }
+        }
+    ]
+}
